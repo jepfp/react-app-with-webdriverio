@@ -1,18 +1,15 @@
 {
-    "compilerOptions": {
-        "types": [
-            "node",
-            "webdriverio/async",
-            "@wdio/mocha-framework",
-            "expect-webdriverio"
-        ],
-        "target": "ES5",
-		"paths": {
-		  "~shared/*": ["../../shared/src*"]
-		},
-		"rootDirs": [
-		  "./",
-		  "../../shared"
-		]
-    }
+  "compilerOptions": {
+    "types": [
+      "node",
+      "webdriverio/async",
+      "@wdio/mocha-framework",
+      "expect-webdriverio"
+    ],
+    "target": "ES5"
+  },
+  "include": [
+    "./",
+    "../../my-app/src/**/*"
+  ]
 }

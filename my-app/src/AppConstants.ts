@@ -1,0 +1,1 @@
+export const MyComponent : string = "wio-my-component"
