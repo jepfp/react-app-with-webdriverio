@@ -18,7 +18,14 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "paths": {
+      "~shared/*": ["../shared/src*"]
+    },
+    "rootDirs": [
+      "./src",
+      "../shared"
+    ]
   },
   "include": [
     "src"

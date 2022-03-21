@@ -6,6 +6,13 @@
             "@wdio/mocha-framework",
             "expect-webdriverio"
         ],
-        "target": "ES5"
+        "target": "ES5",
+		"paths": {
+		  "~shared/*": ["../../shared/src*"]
+		},
+		"rootDirs": [
+		  "./",
+		  "../../shared"
+		]
     }
 }
